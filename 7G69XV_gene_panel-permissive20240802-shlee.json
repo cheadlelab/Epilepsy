@@ -1,0 +1,7799 @@
+{
+  "metadata": {
+    "sha256_checksum": "c785a550e1ccde969bc40b39f7e0e19c5ec98ec111ada618ae5683851ed03c20",
+    "ui_props": {
+      "visible": true
+    }
+  },
+  "payload": {
+    "chemistry": {
+      "decoder": "xenium_decoding_v1",
+      "version": "v1"
+    },
+    "customer": {
+      "email": "ckang@cshl.edu",
+      "name": "Chris Kang"
+    },
+    "designer": {
+      "date_created": "2024-06-24T13:29:00.653084164-07:00",
+      "designed_by": {
+        "email": "ckang@cshl.edu",
+        "name": "Chris Kang"
+      },
+      "version": "3.1.1"
+    },
+    "panel": {
+      "description": "Inflammation in Epilepsy",
+      "identity": {
+        "design_id": "7G69XV",
+        "name": "hBrain_50g",
+        "version": "1.0.0"
+      },
+      "num_gene_targets": 295,
+      "species": "Human",
+      "tissue": "Brain",
+      "type": {
+        "descriptor": "custom"
+      }
+    },
+    "spec_version": "0.1.0",
+    "targets": [
+      {
+        "codewords": [
+          0
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000077942",
+            "name": "FBLN1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          2
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169442",
+            "name": "CD52"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          3
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000068078",
+            "name": "FGFR3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          4
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000188906",
+            "name": "LRRK2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          6
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000163630",
+            "name": "SYNPR"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          9
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0009"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          10
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000150656",
+            "name": "CNDP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          11
+        ],
+        "info": {
+          "gene_coverage": 2
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000173267",
+            "name": "SNCG"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          12
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0012"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          14
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000092969",
+            "name": "TGFB2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          16
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000140479",
+            "name": "PCSK6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          17
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000099250",
+            "name": "NRP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          18
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000121933",
+            "name": "TMIGD3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          19
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000143801",
+            "name": "PSEN2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          21
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_021"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          22
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000081237",
+            "name": "PTPRC"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          24
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0024"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          25
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000105974",
+            "name": "CAV1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          26
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000150337",
+            "name": "FCGR1A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          28
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0028"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          29
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000167755",
+            "name": "KLK6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          30
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000145649",
+            "name": "GZMA"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          31
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0031"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          32
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000140015",
+            "name": "KCNH5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          33
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000184144",
+            "name": "CNTN2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          34
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115353",
+            "name": "TACR1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          35
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000172575",
+            "name": "RASGRP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          38
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000072657",
+            "name": "TRHDE"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          39
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0039"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          40
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000135048",
+            "name": "CEMIP2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          42
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000153234",
+            "name": "NR4A2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          44
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115415",
+            "name": "STAT1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          45
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0045"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          46
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000095970",
+            "name": "TREM2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          47
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000110077",
+            "name": "MS4A6A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          48
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000148400",
+            "name": "NOTCH1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          51
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000170312",
+            "name": "CDK1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          52
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000168329",
+            "name": "CX3CR1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          53
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000120907",
+            "name": "ADRA1A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          54
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0054"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          57
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000132692",
+            "name": "BCAN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          58
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0058"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          60
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000127528",
+            "name": "KLF2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          61
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000152214",
+            "name": "RIT2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          63
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000113163",
+            "name": "CERT1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          64
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000197430",
+            "name": "OPALIN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          65
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000129226",
+            "name": "CD68"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          67
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0067"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          68
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_068"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          70
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000009694",
+            "name": "TENM1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          73
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000173546",
+            "name": "CSPG4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          74
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000107731",
+            "name": "UNC5B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          75
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0075"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          76
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000187720",
+            "name": "THSD4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          77
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000124920",
+            "name": "MYRF"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          81
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000066468",
+            "name": "FGFR2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          82
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000128683",
+            "name": "GAD1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          83
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134853",
+            "name": "PDGFRA"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          84
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000141510",
+            "name": "TP53"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          85
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000204472",
+            "name": "AIF1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          88
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000042493",
+            "name": "CAPG"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          89
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000026297",
+            "name": "RNASET2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          90
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000116824",
+            "name": "CD2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          91
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000011465",
+            "name": "DCN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          92
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000038427",
+            "name": "VCAN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          94
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000144229",
+            "name": "THSD7B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          96
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000013297",
+            "name": "CLDN11"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          97
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0097"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          99
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000205155",
+            "name": "PSENEN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          101
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000136826",
+            "name": "KLF4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          102
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000162736",
+            "name": "NCSTN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          104
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000010610",
+            "name": "CD4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          106
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000184307",
+            "name": "ZDHHC23"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          108
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000113361",
+            "name": "CDH6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          109
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0109"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          111
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000157404",
+            "name": "KIT"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          112
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000103811",
+            "name": "CTSH"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          113
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000135046",
+            "name": "ANXA1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          117
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0117"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          119
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169896",
+            "name": "ITGAM"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          121
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000131203",
+            "name": "IDO1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          122
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169508",
+            "name": "GPR183"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          123
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000147655",
+            "name": "RSPO2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          125
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000133101",
+            "name": "CCNA1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          129
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000067066",
+            "name": "SP100"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          130
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000184347",
+            "name": "SLIT3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          131
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000111799",
+            "name": "COL12A1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          133
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000187957",
+            "name": "DNER"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          134
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000181631",
+            "name": "P2RY13"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          135
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000180287",
+            "name": "PLD5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          136
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0136"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          137
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000121966",
+            "name": "CXCR4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          138
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000170458",
+            "name": "CD14"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          140
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0140"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          141
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000077943",
+            "name": "ITGA8"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          142
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000135218",
+            "name": "CD36"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          143
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0143"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          144
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171659",
+            "name": "GPR34"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          145
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000135454",
+            "name": "B4GALNT1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          148
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000138193",
+            "name": "PLCE1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          149
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115468",
+            "name": "EFHD1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          151
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000111249",
+            "name": "CUX2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          152
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000168685",
+            "name": "IL7R"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          154
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000105329",
+            "name": "TGFB1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          155
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000144824",
+            "name": "PHLDB2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          158
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000137801",
+            "name": "THBS1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          159
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000136541",
+            "name": "ERMN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          160
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0160"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          162
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000120708",
+            "name": "TGFBI"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          163
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000187123",
+            "name": "LYPD6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          165
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000204655",
+            "name": "MOG"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          166
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000106852",
+            "name": "LHX6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          167
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0167"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          168
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000152953",
+            "name": "STK32B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          170
+        ],
+        "info": {
+          "gene_coverage": 2
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000157005",
+            "name": "SST"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          171
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0171"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          174
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000100362",
+            "name": "PVALB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          175
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000198963",
+            "name": "RORB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          176
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000172005",
+            "name": "MAL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          177
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000143333",
+            "name": "RGS16"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          178
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000188517",
+            "name": "COL25A1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          181
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000117091",
+            "name": "CD48"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          182
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000124766",
+            "name": "SOX4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          183
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000160255",
+            "name": "ITGB2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          184
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000203727",
+            "name": "SAMD5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          187
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000196154",
+            "name": "S100A4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          188
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000160654",
+            "name": "CD3G"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          189
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000174607",
+            "name": "UGT8"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          191
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000158869",
+            "name": "FCER1G"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          192
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0192"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          193
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000064989",
+            "name": "CALCRL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          196
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0196"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          197
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000148773",
+            "name": "MKI67"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          198
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000170214",
+            "name": "ADRA1B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          199
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000064270",
+            "name": "ATP2C2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          200
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000271503",
+            "name": "CCL5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          201
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000112799",
+            "name": "LY86"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          202
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000167306",
+            "name": "MYO5B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          203
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000140678",
+            "name": "ITGAX"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          204
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000125869",
+            "name": "LAMP5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          206
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000262655",
+            "name": "SPON1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          207
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000185551",
+            "name": "NR2F2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          210
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000277734",
+            "name": "TRAC"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          212
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000008394",
+            "name": "MGST1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          213
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0213"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          214
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171094",
+            "name": "ALK"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          215
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171885",
+            "name": "AQP4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          216
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000175426",
+            "name": "PCSK1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          218
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115165",
+            "name": "CYTIP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          219
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000151136",
+            "name": "BTBD11"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          221
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000242574",
+            "name": "HLA-DMB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          222
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000132646",
+            "name": "PCNA"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          223
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000180071",
+            "name": "ANKRD18A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          226
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000131747",
+            "name": "TOP2A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          227
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000111796",
+            "name": "KLRB1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          228
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000136750",
+            "name": "GAD2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          229
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000140563",
+            "name": "MCTP2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          230
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000102879",
+            "name": "CORO1A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          231
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0231"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          232
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000181449",
+            "name": "SOX2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          234
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000142089",
+            "name": "IFITM3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          237
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000196735",
+            "name": "HLA-DQA1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          239
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000154529",
+            "name": "CNTNAP3B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          240
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000255690",
+            "name": "TRIL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          242
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000150556",
+            "name": "LYPD6B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          243
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000196136",
+            "name": "SERPINA3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          244
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000072315",
+            "name": "TRPC5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          246
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000197977",
+            "name": "ELOVL2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          249
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000181234",
+            "name": "TMEM132C"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          252
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0252"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          255
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000167614",
+            "name": "TTYH1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          256
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000174145",
+            "name": "NWD2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          257
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000117707",
+            "name": "PROX1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          259
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000138653",
+            "name": "NDST4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          262
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000182054",
+            "name": "IDH2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          263
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115523",
+            "name": "GNLY"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          264
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000205927",
+            "name": "OLIG2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          266
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169064",
+            "name": "ZBBX"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          267
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000154645",
+            "name": "CHODL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          268
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000174453",
+            "name": "VWC2L"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          269
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000137393",
+            "name": "RNF144B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          270
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000162733",
+            "name": "DDR2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          271
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000125398",
+            "name": "SOX9"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          274
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0274"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          276
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000091137",
+            "name": "SLC26A4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          277
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0277"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          279
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000146648",
+            "name": "EGFR"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          280
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000185052",
+            "name": "SLC24A3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          281
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0281"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          283
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000065361",
+            "name": "ERBB3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          285
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000170962",
+            "name": "PDGFD"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          286
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000146469",
+            "name": "VIP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          287
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000092529",
+            "name": "CAPN3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          288
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000114805",
+            "name": "PLCH1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          290
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0290"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          292
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000076944",
+            "name": "STXBP2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          294
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000182601",
+            "name": "HS3ST4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          295
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0295"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          296
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000122254",
+            "name": "HS3ST2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          297
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000154237",
+            "name": "LRRK1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          299
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000112319",
+            "name": "EYA4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          300
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000145423",
+            "name": "SFRP2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          301
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000137573",
+            "name": "SULF1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          302
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000106536",
+            "name": "POU6F2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          304
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0304"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          305
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000196358",
+            "name": "NTNG2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          306
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134138",
+            "name": "MEIS2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          307
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000168743",
+            "name": "NPNT"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          308
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000165985",
+            "name": "C1QL3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          310
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000143110",
+            "name": "C1orf162"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          311
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000145536",
+            "name": "ADAMTS16"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          312
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000117724",
+            "name": "CENPF"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          313
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000133800",
+            "name": "LYVE1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          314
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0314"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          316
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000156140",
+            "name": "ADAMTS3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          317
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0317"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          318
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0318"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          320
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000010282",
+            "name": "HHATL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          322
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000144227",
+            "name": "NXPH2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          324
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000133110",
+            "name": "POSTN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          329
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000164128",
+            "name": "NPY1R"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          331
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000131378",
+            "name": "RFTN1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          332
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000156076",
+            "name": "WIF1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          333
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000118407",
+            "name": "FILIP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          334
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000137672",
+            "name": "TRPC6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          335
+        ],
+        "info": {
+          "gene_coverage": 2
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000066336",
+            "name": "SPI1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          336
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000139354",
+            "name": "GAS2L3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          339
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000142192",
+            "name": "APP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          340
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171509",
+            "name": "RXFP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          342
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000069431",
+            "name": "ABCC9"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          343
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134343",
+            "name": "ANO3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          344
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0344"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          345
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0345"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          347
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000053438",
+            "name": "NNAT"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          349
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000136235",
+            "name": "GPNMB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          350
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000154188",
+            "name": "ANGPT1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          351
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000153820",
+            "name": "SPHKAP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          352
+        ],
+        "info": {
+          "gene_coverage": 2
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000105374",
+            "name": "NKG7"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          353
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000091664",
+            "name": "SLC17A6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          354
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000152595",
+            "name": "MEPE"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          355
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000112902",
+            "name": "SEMA5A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          360
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000114013",
+            "name": "CD86"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          361
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000148908",
+            "name": "RGS10"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          363
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000006128",
+            "name": "TAC1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          364
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000138413",
+            "name": "IDH1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          365
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000157456",
+            "name": "CCNB2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          366
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0366"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          367
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000168314",
+            "name": "MOBP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          368
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0368"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          369
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000102468",
+            "name": "HTR2A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          370
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0370"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          371
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000039068",
+            "name": "CDH1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          372
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000047936",
+            "name": "ROS1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          373
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0373"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          374
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000151388",
+            "name": "ADAMTS12"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          376
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0376"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          377
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000053108",
+            "name": "FSTL4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          261
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00042"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          265
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00041"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          273
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00039"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          275
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00035"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          282
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00034"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          284
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00033"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          289
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00031"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          298
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00025"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          303
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00024"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          309
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00022"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          315
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00019"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          323
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00017"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          326
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00016"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          327
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00014"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          328
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00013"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          330
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00012"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          338
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00009"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          362
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00003"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          359
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000160712",
+            "name": "IL6R"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          378
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000103316",
+            "name": "CRYM"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          379
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000056291",
+            "name": "NPFFR2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          380
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000184221",
+            "name": "OLIG1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          381
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0381"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          382
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000007372",
+            "name": "PAX6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          384
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000165899",
+            "name": "OTOGL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          385
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000177575",
+            "name": "CD163"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          386
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000135426",
+            "name": "TESPA1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          387
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000244694",
+            "name": "PTCHD4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          388
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000132688",
+            "name": "NES"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          389
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000113083",
+            "name": "LOX"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          391
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000112149",
+            "name": "CD83"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          392
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000139287",
+            "name": "TPH2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          393
+        ],
+        "info": {
+          "gene_coverage": 0
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_0393"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          394
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000080815",
+            "name": "PSEN1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          396
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000261371",
+            "name": "PECAM1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          397
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000146674",
+            "name": "IGFBP3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          398
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000117560",
+            "name": "FASLG"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          399
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "hBrain_v1.2",
+            "name": "Xenium Human Brain Gene Expression",
+            "version": "1.2.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000145824",
+            "name": "CXCL14"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          8
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_NCK1|FCGR3A"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          27
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_IFI16|DeprecatedCodeword_0027"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          37
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_SELENOP|RYR3"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          49
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_SPNS2|SLC17A7"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          50
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_MAPK8|CRHBP"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          69
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_SYK|HILPDA"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          72
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_TUBA1A|MYO16"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          87
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_C3|SDK1"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          105
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_NOTCH2|IGFBP5"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          107
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_ID2|P2RY12"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          110
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_TGFBR2|TSHZ2"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          114
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_FOSL2|SORCS1"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          115
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_PTK2B|CDH12"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          120
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_TGFBR1|MAG"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          126
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_PPARG|CCK"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          132
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_IFI44|ANK1"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          147
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_NCK2|RELN"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          157
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_SOCS6|HES1"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          169
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_DOCK8|DeprecatedCodeword_0169"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          180
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_FNIP1|ST18"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          186
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_PLP1|PTPRZ1"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          211
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_BCL2|FLT1"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          220
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_IL6ST|CTNNA3"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          241
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_SOS2|BRINP3"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          248
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_SOS1|CTSS"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          250
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_IL6|CDH4"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          251
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_IFI44L|DeprecatedCodeword_0251"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          253
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_JAK2|STAT3"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          258
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_PARP9|SNTB2"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          272
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_CNP|DeprecatedCodeword_0272"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          278
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_GRAMD1B|CEMIP"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          291
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_RTN3|DeprecatedCodeword_0291"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          293
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_MAP2K4|DeprecatedCodeword_0293"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          319
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_PAK1|NTNG1"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          321
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_PARP14|DeprecatedCodeword_0321"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          325
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_ENPP1|THEMIS"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          337
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_PLCG2|APOE"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          341
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_STMN1|IGFBP4"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          346
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_TIAM1|DeprecatedCodeword_0346"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          348
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_CDK6|HTR2C"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          356
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_SMAD3|SOX10"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          357
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_NTRK2|LAMA2"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          358
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_KLHL24|ARHGAP24"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          375
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_ABCA1|SOX11"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          383
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_TENM4|CCL4"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          395
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_IL17RA|GJA1"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      },
+      {
+        "codewords": [
+          390
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "7G69XV",
+            "name": "hBrain_50g",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "DeprecatedCodeword_"
+          },
+          "descriptor": "deprecated_codeword"
+        }
+      }
+    ]
+  }
+}
