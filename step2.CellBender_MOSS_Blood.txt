@@ -1,0 +1,42 @@
+# Activate cellbender environment
+conda activate cellbender
+
+# Base directory containing EXP directories
+BASE_DIR="/run/user/1000/gvfs/smb-share:server=grid,share=cheadle_home/qianyu/Epilepsy/Blood/count_1lane"
+
+# Define an array of SRR directory names
+SRR_DIRS=(Cheadle_QL02_PBMC_1 Cheadle_QL02_PBMC_2 Cheadle_QL02_PBMC_3 Cheadle_QL02_PBMC_4 Cheadle_QL02_PBMC_5 Cheadle_QL02_PBMC_6 Cheadle_QL02_PBMC_7 Cheadle_QL02_PBMC_8)
+
+
+# Flag to control the while loop
+flag=TRUE
+
+while [[ "$flag" == "TRUE" ]]; do
+  flag=FALSE
+  # Loop through the array of SRR directories
+  for SRR_DIR in "${SRR_DIRS[@]}"; do
+    echo "Processing directory: ${BASE_DIR}/${SRR_DIR}"
+    
+    # Change directory to the specified SRR directory
+    cd "${BASE_DIR}/${SRR_DIR}/outs"
+    
+    # Check if output_report.html exists
+    if [[ ! -e output_report.html ]]; then
+      flag=TRUE
+      
+      # Attempt to run cellbender remove-background
+      if cellbender remove-background --cuda --input raw_feature_bc_matrix.h5 --output "output.h5"; then
+        echo "Finished processing ${BASE_DIR}/${SRR_DIR}"
+      else
+        echo "cellbender remove-background failed for ${BASE_DIR}/${SRR_DIR}, will retry."
+      fi
+      
+      sleep 10
+      
+    else
+      echo "${BASE_DIR}/${SRR_DIR} already processed."
+    fi
+  done
+done
+
+echo "All directories processed."

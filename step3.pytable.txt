@@ -1,0 +1,41 @@
+# https://cellbender.readthedocs.io/en/latest/tutorial/index.html
+
+# module load EBModules
+# module load Anaconda3/2021.05-SingleCell
+
+#conda create --name pytables_env python=3.9
+conda activate pytables_env
+#conda install pytables
+
+EGAF_DIRS=(Exp01 Exp02_Control Exp02_ES Exp02_EU Exp03_EP Exp03_HU Exp04_3E Exp04_4S Exp04_4C Exp04_4E Exp05_5S Exp05_5C Exp05_5E Exp06_6S Exp06_6C Exp06_6E Exp07_4C Exp07_4E Exp07_5E)
+EGAF_DIRS=(Exp07_4C Exp07_4E Exp07_5E)
+
+BASE_DIR="/grid/cheadle/home/qianyu/Epilepsy/Cellranger_output"
+
+# Loop through each directory name in EGAF_DIRS
+for DIR in "${EGAF_DIRS[@]}"; do
+    # Full path to the 'outs' subdirectory
+    OUTS_DIR="${BASE_DIR}/${DIR}/outs"
+    
+    # Check if the 'outs' subdirectory exists
+    if [ -d "${OUTS_DIR}" ]; then
+        echo "Processing directory: ${OUTS_DIR}"
+        
+        # Change to the 'outs' directory
+        cd "${OUTS_DIR}"
+        
+        # Execute the ptrepack command
+        ptrepack --complevel 5 output_filtered.h5:/matrix output_filtered_seurat.h5:/matrix
+        
+        echo "Finished processing ${OUTS_DIR}"
+        
+        # Optional: Return to the base directory (or any other preferred directory)
+        # Not strictly necessary unless further commands rely on the starting directory
+        cd "${BASE_DIR}"
+    else
+        echo "outs subdirectory does not exist in ${DIR}"
+    fi
+done
+
+echo "All directories processed."
+

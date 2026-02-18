@@ -1,0 +1,33 @@
+qrsh -l m_mem_free=1024G
+module load EBModules
+module load CellRanger/7.0.0
+cd /grid/cheadle/home/qianyu/Epilepsy/Cellranger_output
+
+library="/grid/cheadle/home/qianyu/cellranger/refdata-gex-GRCh38-2020-A"
+
+# folder_1="/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp1"
+# folder_2="/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp2"
+# folder_3="/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp3"
+# folder_4="/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp4"
+
+
+cellranger count --id=Exp01 --sample=Cheadle_AMX07_human_snRNAseq --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp1 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp02_Control --sample=Cheadle_AMX12_Control --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp2 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp02_ES --sample=Cheadle_AMX12_ES --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp2 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp02_EU --sample=Cheadle_AMX12_EU --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp2 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp03_EP --sample=Cheadle_AMX13_EP --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp3 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp03_HU --sample=Cheadle_AMX13_HU --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp3 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp04_3E --sample=Cheadle_CK03_3E --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp4 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp04_4S --sample=Cheadle_CK03_4S --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp4 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp04_4C --sample=Cheadle_CK04_4C --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp4 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp04_4E --sample=Cheadle_CK04_4E --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp4 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp05_5E --sample=Cheadle_CK05_5E --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp5 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp05_5C --sample=Cheadle_CK07_5C --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp5 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp05_5S --sample=Cheadle_CK08_5S --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp5 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp06_6S --sample=Cheadle_CK09_6S --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp6 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp06_6E --sample=Cheadle_CK10_6E --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp6 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp06_6C --sample=Cheadle_CK11_6C --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp6 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp07_4C --sample=Cheadle_CK12_4C --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp7 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp07_4E --sample=Cheadle_CK13_4E --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp7 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+cellranger count --id=Exp07_5E --sample=Cheadle_CK14_5E --transcriptome=$library --fastqs=/grid/cheadle/home/qianyu/Epilepsy/FASTQ/FASTQ_Exp7 --localcores=60 --localmem=1024 --nosecondary --include-introns true
+

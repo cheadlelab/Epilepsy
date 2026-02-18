@@ -1,0 +1,41 @@
+# https://cellbender.readthedocs.io/en/latest/tutorial/index.html
+
+# module load EBModules
+# module load Anaconda3/2021.05-SingleCell
+
+#conda create --name pytables_env python=3.9
+conda activate pytables_env
+#conda install pytables
+
+EGAF_DIRS=(Cheadle_QL02_PBMC_1 Cheadle_QL02_PBMC_2 Cheadle_QL02_PBMC_3 Cheadle_QL02_PBMC_4 Cheadle_QL02_PBMC_5 Cheadle_QL02_PBMC_6 Cheadle_QL02_PBMC_7 Cheadle_QL02_PBMC_8)
+
+BASE_DIR="/grid/cheadle/home/qianyu/Epilepsy/Cellranger_output/Blood"
+BASE_DIR="/run/user/1000/gvfs/smb-share:server=grid,share=cheadle_home/qianyu/Epilepsy/Blood/count_1lane"
+
+# Loop through each directory name in EGAF_DIRS
+for DIR in "${EGAF_DIRS[@]}"; do
+    # Full path to the 'outs' subdirectory
+    OUTS_DIR="${BASE_DIR}/${DIR}/outs"
+    
+    # Check if the 'outs' subdirectory exists
+    if [ -d "${OUTS_DIR}" ]; then
+        echo "Processing directory: ${OUTS_DIR}"
+        
+        # Change to the 'outs' directory
+        cd "${OUTS_DIR}"
+        
+        # Execute the ptrepack command
+        ptrepack --complevel 5 output_filtered.h5:/matrix output_filtered_seurat.h5:/matrix
+        
+        echo "Finished processing ${OUTS_DIR}"
+        
+        # Optional: Return to the base directory (or any other preferred directory)
+        # Not strictly necessary unless further commands rely on the starting directory
+        cd "${BASE_DIR}"
+    else
+        echo "outs subdirectory does not exist in ${DIR}"
+    fi
+done
+
+echo "All directories processed."
+
